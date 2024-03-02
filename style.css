@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "JacquesFrancoisShadow";
+    src: url(fonts/Jacques_Francois_Shadow/JacquesFrancoisShadow-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Original_Surfer";
+    src: url(fonts/Original_Surfer/OriginalSurfer-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Play";
+    src: url(fonts/Play/Play-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "JacquesFrancoisShadow";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.p1 {
+    font-family: "Original_Surfer";
+    font-weight: 400;
+}
+
+.p2 {
+    font-family: "Play";
+    font-weight: 400;
+    text-align: justify;
+}
